@@ -8,7 +8,7 @@ exports.up = knex =>
                 enumName: "categories"
             })
             .notNullable();
-        table.text("price").notNullable();
+        table.float("price").notNullable();
         table.text("description").notNullable();
         table.text("photo");
 
