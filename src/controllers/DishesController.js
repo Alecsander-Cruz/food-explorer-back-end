@@ -35,10 +35,12 @@ class DishesController {
                 .split(",")
                 .map(ingredient => ingredient.trim());
 
+            console.log(filterIngrendients)
+
             dishes = await knex("ingredients")
                 .select(["dishes.id", "dishes.name"])
                 .whereLike("dishes.name", `%${name}%`)
-                .whereIn("name", filterIngrendients)
+                .whereIn("ingredients.name", filterIngrendients)
                 .innerJoin("dishes", "dishes.id", "ingredients.dish_id")
                 .orderBy("dishes.name")
                 .groupBy("dishes.id");
