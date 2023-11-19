@@ -35,8 +35,6 @@ class DishesController {
                 .split(",")
                 .map(ingredient => ingredient.trim());
 
-            console.log(filterIngrendients)
-
             dishes = await knex("ingredients")
                 .select(["dishes.id", "dishes.name"])
                 .whereLike("dishes.name", `%${name}%`)
