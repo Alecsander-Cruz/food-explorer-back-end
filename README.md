@@ -1,6 +1,6 @@
 # food-explorer-back-end
-
-Back-end do Flood Explorer, aplicação desenvolvida no desafio final do curso Explorer da Rocketseat
+### Back-end do Flood Explorer, aplicação desenvolvida no desafio final do curso Explorer da Rocketseat
+- repositório do front-end [food-exlorer-front-end](https://github.com/Alecsander-Cruz/food-explorer-front-end/)
 
 ## Requisitos do Back-end:
 
