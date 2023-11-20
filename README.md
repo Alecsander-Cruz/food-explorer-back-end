@@ -74,3 +74,17 @@
 
 ## :link:[Deploy do projeto](https://alecsander-cruz-food-explorer.onrender.com)
 - Recomendado testar o projeto localmente, pois o deploy do Front e Back estão muito lentos e bugando a visualização...
+
+
+## Próximos passos:
+-  [ ] Inclusão de itens no carrinho, clicando no botão incluir. Já a quantidade é controlada pelos botões “-” e “+”.
+
+-  [ ] Tela de pedido, ao clicar no botão de pedidos, onde o usuário poderá ver o seu pedido, a soma e os métodos de pagamento.
+
+-  [ ] Exclusão de prato do carrinho e atualização do valor total.
+
+-  [ ] Marcar prato como favorito ao clicar no ícone de coração.
+
+-  [ ] Admin poderá visualizar e controlar o status de cada pedido, por um campo do tipo select. Os pedidos irão aparecer em uma tabela ao clicar em Pedidos.
+
+-  [ ] Versão Light Mode do projeto.
