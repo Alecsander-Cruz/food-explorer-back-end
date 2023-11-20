@@ -10,7 +10,6 @@ Back-end do Flood Explorer, aplicação desenvolvida no desafio final do curso E
 -   [x] Implementação de funcionalidades de busca por nome e ingredientes para pratos.
 -   [x] Desenvolvimento de _endpoints_ para manipulação de pratos, autenticação e outras operações necessárias.
 -   [x] Implementação de validações de entrada e saída de dados.
--   [ ] Documentação detalhada no README, incluindo instruções de execução do projeto e link de deploy.
 
 ## Dependências do projeto:
   - [bcrypt.js](https://www.npmjs.com/package/bcryptjs) versão 2.4.3
@@ -59,6 +58,10 @@ Back-end do Flood Explorer, aplicação desenvolvida no desafio final do curso E
     ```
     npm start
     ```
-  - Obs.: para rodar localmente troque a origin do cors do arquivo [server.js](src/server.js) para a url em que o front-end usará. A url usada no desenvolvimento foi a "http://localhost:5173"
+  - Configurar o arquivo .env com base no [.env.example](.env.example) preenchendo os valores do SERVER_PORT, com a porta na qual será executada o back-end, e o AUTH_SECRET com uma chave hash para o secret do JWT, usado no [auth.js](src/configs/auth.js).
 
-link do deploy - https://alecsander-cruz-food-explorer.onrender.com
+    - Obs.: para rodar localmente troque a origin do cors no arquivo [server.js](src/server.js) para a url em que o front-end usará. A url usada no desenvolvimento foi a "http://localhost:5173"
+
+
+
+## :link:[Deploy do projeto](https://alecsander-cruz-food-explorer.onrender.com)
