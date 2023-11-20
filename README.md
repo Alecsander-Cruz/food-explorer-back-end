@@ -65,3 +65,4 @@
 
 
 ## :link:[Deploy do projeto](https://alecsander-cruz-food-explorer.onrender.com)
+- Recomendado testar o projeto localmente, pois o deploy do Front e Back estão muito lentos e bugando a visualização...
