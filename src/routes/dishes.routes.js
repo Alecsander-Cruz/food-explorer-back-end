@@ -38,5 +38,10 @@ dishesRoutes.patch(
     upload.single("photo"),
     dishesPhotoController.update
 );
+dishesRoutes.delete(
+    "/photo/:id",
+    verifyUserAuthorization("admin"),
+    dishesPhotoController.delete
+);
 
 module.exports = dishesRoutes;
