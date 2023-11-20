@@ -28,7 +28,8 @@ Back-end do Flood Explorer, aplicação desenvolvida no desafio final do curso E
   - [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) versão 9.0.2
     
   - [knex](https://www.npmjs.com/package/knex) versão 3.0.1 (Para fazer o deploy desta aplicação com essa versão do KNEX no [Render.com](https://render.com/) foi necessário setar uma variável de ambiente no Render "NODE_VERSION" com o valor de uma versão do Node.js maior ou igual a v16
-  ![render knex node version](https://github.com/Alecsander-Cruz/food-explorer-back-end/assets/17745018/e602ab61-fed6-4452-b1f2-5033004d2d5a)
+
+    ![render knex node version](https://github.com/Alecsander-Cruz/food-explorer-back-end/assets/17745018/e602ab61-fed6-4452-b1f2-5033004d2d5a)
 
     
   - [multer](https://www.npmjs.com/package/multer) versão 1.4.5-lts.1
