@@ -11,3 +11,6 @@ Back-end do Flood Explorer, aplicação desenvolvida no desafio final do curso E
 -   [x] Desenvolvimento de _endpoints_ para manipulação de pratos, autenticação e outras operações necessárias.
 -   [x] Implementação de validações de entrada e saída de dados.
 -   [ ] Documentação detalhada no README, incluindo instruções de execução do projeto e link de deploy.
+
+
+link do deploy - https://alecsander-cruz-food-explorer.onrender.com
