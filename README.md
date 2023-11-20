@@ -2,6 +2,14 @@
 ### Back-end do Flood Explorer, aplicação desenvolvida no desafio final do curso Explorer da Rocketseat
 - repositório do front-end [food-exlorer-front-end](https://github.com/Alecsander-Cruz/food-explorer-front-end/)
 
+- O banco de dados já está populado com dois usuários:
+  - admin:
+    - email: admin@email.com
+    - senha: 123456
+  - usuário:
+    - email: usuario@email.com
+    - senha 123456 
+
 ## Requisitos do Back-end:
 
 -   [x] Desenvolvimento de uma API que suporte as operações de CRUD (criar, ler, atualizar, e apagar) para os pratos do restaurante.
